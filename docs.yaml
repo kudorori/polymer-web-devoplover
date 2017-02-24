@@ -1,0 +1,26 @@
+info:
+  title: 123
+build: publish
+config: 
+  global:
+    
+  dev:
+    
+  publish:
+    
+elementsDir: ./welcome
+defaultPath: /welcome/signin
+sitemap:
+  - pattern: /welcome
+    ele: ffm-welcome
+  - pattern: /home
+    ele: ffm-home
+    pages:
+      - pattern: /want
+        ele: ffm-want
+      - pattern: /todo
+        ele: ffm-todo
+      - pattern: /history
+        ele: ffm-history
+      - pattern: /me
+        ele: ffm-me

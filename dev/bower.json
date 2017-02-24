@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "authors": [
+    "kudorori <kudokawai@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "iron-elements": null,
+    "paper-elements": null,
+    "app-elements": null,
+    "gold-elements": null,
+    "lazy-page-manager": "https://github.com/kudorori/polymer-lazy-page-manager.git#redux",
+    "iron-data-table": "^1.0.6",
+    "lazy-process-dialog": "https://github.com/kudorori/polymer-lazy-process.git",
+    "moment": "^2.17.1",
+    "lazy-object2array": "https://github.com/kudorori/polymer-lazy-object2array.git"
+  }
+}

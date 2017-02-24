@@ -1,0 +1,32 @@
+<link rel="import" href="imports.html"/>
+
+<dom-module id="start-app"> 
+	<style >
+		:host{
+			background-size:cover;
+			display:block;
+			width:100vw;
+			height:100vh;
+		}
+	</style>
+	<template>
+		<lazy-page-manager file="/docs.yaml" inited="{{inited}}"></lazy-page-manager>
+	</template>
+	<script>
+		Polymer({
+			is:"start-app",
+			behaviors:[
+				lazyPageBehavior
+			],
+			properties:{
+				
+			},
+			observers:[
+				
+			],
+			ready:function(){
+				
+			}
+		})
+	</script>
+</dom-module>

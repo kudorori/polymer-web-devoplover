@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="author" content="蘇銘峰">
+		<meta name="fragment" content="!"/>
+		<title></title>
+		<script src="./bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+		<meta property="og:title" content=""/>
+		<meta property="og:type" content=""/>  
+		<meta property="og:site_name" content=""/>
+		<meta property="og:descriptions" content=""/>
+<!--
+		<script>
+			window.Polymer = {
+		      dom: 'shadow',
+		      lazyRegister: true
+		    };
+		</script>
+-->
+		<link rel="import" href="./bower_components/polymer/polymer.html"/>
+		<link rel="import" href="start-app.html">
+		
+		<style>
+			html,body{
+				width:100vw;
+				height:100vh;
+				padding:0px;
+				margin:0px;
+				font-size:10px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<start-app></start-app>
+		<script>
+			var inited = false;
+            window.addEventListener('WebComponentsReady', function(e) {
+                console.log('components ready');
+                inited=true;
+            });
+        </script>
+	</body>
+</html>
